@@ -1,11 +1,11 @@
-machine:
-  ruby:
-    version: rbx-2.2.6
-
 dependencies:
   pre:
   - echo "export rvm_ignore_gemsets_flag=1" >> ~/.rvmrc
   - gem install svn
+
+machine:
+  ruby:
+    version: rbx-2.2.6
 
 general:
    artifacts:
