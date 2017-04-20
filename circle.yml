@@ -5,8 +5,8 @@ dependencies:
   - export -f rvm_debug
 
 machine:
-  ruby:
-    version: rbx-2.2.6
+      java:
+        version: openjdk8
 
 general:
    artifacts:
